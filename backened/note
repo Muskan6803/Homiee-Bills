@@ -1,0 +1,17 @@
+JWT(JSON Web Token) - securely transmitting information between parties as a JSON object
+                    Token, such as JWTs(JSON Web Token), are typically not stored in the 
+                    database along with other user details. Instead, they are issued by 
+                    the server during the authentication process and then stored on the 
+                    client-side (e.g., in cookies or local storege) for later use.
+bcrypt - library fpr nodejs
+bcrypt usage - async, hash password, to check password
+bcrypt api - 
+    hash - are used to encrypt data,
+    genSalt - are used for processing the data(default - 10)
+    compare - are used to compare the data
+    getRounds - are used to return the number of rounds used to encrypt a given hash
+    saltRound - salt are used to  bcrypt adds a random piece of data, called salt, 
+             to create a unique hash that is almost impossible to break with automated guesses 
+             during hash dictionary and brute force attacks and Round are used to to determine 
+             the computational cost and time required to calculate the hash.
+zod - Zod is primarily used for data validation in TypeScript applications.

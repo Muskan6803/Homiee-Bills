@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    position: fixed;
+    width: 100%;
+}
+#title{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+h2 span{
+    color: gray;
+}
+#home p{
+    color: gray;
+    font-size: 3rem;
+}
+
+#cover img{
+    margin-left:26% ;
+    width: 50%;
+    margin-top: 5%;
+}
+.border3 {
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    margin-top: 5%;
+}
+.blue{
+    background-color: rgb(190, 190, 238);
+    border-radius:30px;
+    font-size: 1.8rem;
+    margin-left: 100px;
+    margin-top: 2%;
+    width: 150px;
+    height: 40px;
+}
+.orange{
+    background-color: rgb(248, 196, 100);
+    border-radius:30px;
+    font-size: 1.8rem;
+    margin-left: 30px;
+    margin-top: 2%;
+    width: 300px;
+    height: 40px;
+}
+.yellow{
+    background-color: rgb(249, 249, 71);
+    border-radius:30px;
+    font-size: 1.8rem;
+    margin-left: 30px;
+    margin-top: 2%;
+    width: 150px;
+    height: 40px;
+}
+.green{
+    background-color: rgb(135, 245, 135);
+    border-radius:30px;
+    font-size: 1.8rem;
+    margin-left: 30px;
+    margin-top: 2%;
+    width: 130px;
+    height: 40px;
+}
+.purple{
+    background-color: rgb(247, 139, 247);
+    border-radius:30px;
+    font-size: 1.8rem;
+    margin-left: 30px;
+    margin-top: 2%;
+    width: 150px;
+    height: 40px;
+}
+.teal{
+    background-color: rgb(148, 219, 219);
+    border-radius:30px;
+    font-size: 1.8rem;
+    margin-left: 100px;
+    margin-top: 2%;
+    width: 120px;
+    height: 40px;
+}
+.pink{
+    background-color: rgb(249, 212, 218);
+    border-radius:30px;
+    font-size: 1.8rem;
+    margin-left: 30px;
+    margin-top: 2%;
+    width: 200px;
+    height: 40px;
+}
+.gray{
+    background-color: rgb(189, 189, 102);
+    border-radius:30px;
+    font-size: 1.8rem;
+    margin-left: 30px;
+    margin-top: 2%;
+    width: 240px;
+    height: 40px;
+}
+.lavender{
+    background-color: lavender;
+    border-radius:30px;
+    font-size: 1.8rem;
+    margin-left: 30px;
+    margin-top: 2%;
+    width: 160px;
+    height: 40px;
+}
+.row{
+    width: 100%;
+}

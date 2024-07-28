@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bills Database Management System</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./images/34.png" style="height:70px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div>
+              <a href="login.html">
+              <button class="btn btn-outline-dark" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+                  height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                  <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                </svg> Login</button></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <section id="title" class="gradient-background bg-secondary-subtle">
+    <div class="container col-xxl-8 px-4 pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/30.webp" alt="Bootstrap Themes" class="d-block mx-lg-auto img-fluid" height="500"
+            loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">India's No.1<br> Billing Storing Software</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam quod debitis reprehenderit aut
+            facilis error non sunt eveniet quaerat, mollitia aspernatur! In quis atque fuga architecto quam tenetur.
+            Eveniet nam hic omnis quis quo repellendus repellat, earum nesciunt numquam expedita aperiam vitae quidem
+            dolorem quos dolore temporibus commodi nemo.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="signup.html">
+              <button type="button" class="btn btn-light btn-lg px-4 me-md-2"><svg xmlns="http://www.w3.org/2000/svg"
+                  width="30" height="30" fill="currentColor" class="bi bi-person-add" viewBox="0 0 16 16">
+                  <path
+                    d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m.5-5v1h1a.5.5 0 0 1 0 1h-1v1a.5.5 0 0 1-1 0v-1h-1a.5.5 0 0 1 0-1h1v-1a.5.5 0 0 1 1 0m-2-6a3 3 0 1 1-6 0 3 3 0 0 1 6 0M8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4" />
+                  <path
+                    d="M8.256 14a4.5 4.5 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10q.39 0 .74.025c.226-.341.496-.65.804-.918Q8.844 9.002 8 9c-5 0-6 3-6 4s1 1 1 1z" />
+                </svg> Sign Up</button></a>
+            <button type="button" class="btn btn-outline-light btn-lg px-4"><svg xmlns="http://www.w3.org/2000/svg"
+                width="16" height="16" fill="currentColor" class="bi bi-google-play mb-1" viewBox="0 0 16 16">
+                <path
+                  d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z" />
+              </svg> Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="home" class="gradient-background2">
+    <div class="container col-xxl-8 px-4 pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/29.webp" alt="Bootstrap Themes" class="d-block mx-lg-auto img-fluid" height="500"
+            loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">Create <span>and</span> Save</h2>
+          <p>Professional Bills</p>
+          <h3>Fully customizable bills as per your business needs</h3><br>
+          <i class="fa fa-check" style="font-size:20px;color:black"></i>
+          <p2 class="para">Add Custom fields such as Vehicle No, E-way bill, etc.</p2>
+          <br><br>
+          <i class="fa fa-check" style="font-size:20px;color:black"></i>
+          <p2 class="para">Choose your own invoice formats.</p2><br><br>
+          <h3>Print according to your needs</h3><br>
+          <i class="fa fa-check" style="font-size:20px;color:black"></i>
+          <p2 class="para">Regular printer supported (A4 & A5)</p2>
+          <br><br>
+          <i class="fa fa-check" style="font-size:20px;color:black"></i>
+          <p2 class="para">Thermal Printer supported (2 inch & 3 inch)</p2>
+          <div class="img2">
+            <img src="29.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="home2">
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom"><span style="color: gray;">Why</span> use Homiee Bills?</span></h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <img src="./images/35.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Invoicing/Billing</h3>
+          <p>Homiee Bills billing software helps businesses create professional invoices in just a few
+            clicks. Homiee Bills provides easy billing by auto-populating all the mandatory fields like electricity
+            bills,AC bills, Gas Subsidy Bills etc.The billing software provides 8+ invoicing formats to create
+            custom-made invoices that suit different business requirements.</p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <img src="./images/36.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Manage Your Inventory</h3>
+          <p>Not just invoicing, the billing software is also capable of managing the business inventory.
+            The free inventory management software helps small and medium enterprises to manage their bills in a few
+            clicks.The inventory management software allows bills to have a neatly organised catalogue. Using
+            the software, add all the new bills with all the required details, including name.</p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <img src="./images/37.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Accounting Made Easy</h3>
+          <p>The free online billing software helps small business owners manage their bills more
+            efficiently. Homiee Bills software helps to manage bills in one file. The free billing software
+            maintains alltypes of bills according their uses. The software makes it easier to reconcile balances and
+            generate financial records that can be used to file invoices/bills returns.</p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col"><img src="./images/38.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Generate E-Way Bills</h3>
+          <p>With the billing software, create e-way bills in a few clicks. There is no restriction on the
+            number of e-way bills that can be generated using the online billing software. The software also
+            enables easy sharing of the bills via WhatsApp or email. The billing app can generate 4 types of e-way
+            bills regular,Bill to ship to, bill from dispatch from & a combination of the last two.</p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <img src="./images/39.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Send Quotations & Estimates</h3>
+          <p>With the online billing software, business owners can create quotations, estimates & invoices
+            and share them easily. The billing app also enables the conversion of estimates into bills and
+            sends them on WhatsApp. The easy to use software application helps users make accurate & instant
+            estimates &quotes for their prospective suppliers & customers.</p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="cover" style="background-color: var(--bs-secondary-bg-subtle)"><br>
+    <h2 style="font-size:45px ;margin-left: 50px;"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45"
+        fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd"
+          d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5" />
+      </svg> Stay<span style="color: gray"> Connected</span></h2>
+    <p style="margin-top: 10px; margin-left: 100px; font-size: 1.5rem;">Sync data seamlessly between Computer & Mobile
+    </p>
+    <img src="./images/42.jpg" alt="">
+    <div class="border3" style="height: 2px;background-color: black;width: 100%;margin-top: 5%;"></div>
+  </section>
+  <section id="middle" class="gradient-background">
+    <div class="container col-xxl-8 px-4 pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/81.png" alt="Bootstrap Themes" class="d-block mx-lg-auto img-fluid" height="500"
+            loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="display-6 fw-bold text-body-emphasis lh-1 mb-3"><span style="color: gray;">Who</span> is
+            it for?</h2><br>
+          <h4>For Retailers-Faster Billing and POS</h4><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para"> Make invoices with the counter system.</p2>
+          <br><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para">Digitise all day-to-day business transactions.</p2><br><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para">Take thermal printouts.</p2><br><br>
+          <h4>For Wholesalers and Distributors</h4><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para"> Manage customer outstandings.</p2>
+          <br><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para">Share invoices via SMS and WhatsApp.</p2><br><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para">Create customised invoices according to the needs.</p2><br><br>
+          <h4>Bills Reports for everyone</h4><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para">Analyse 14+ bill reports.</p2><br><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para">Digitise your bills & grow 2X.</p2><br><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para">Get ahead your bills with Homiee Bills.</p2><br><br>
+          <i class="fa fa-hashtag" style="font-size:10px;color:black;margin-left: 8.5%;"></i>
+          <p2 class="para">Enhance business presence with professionalism.</p2><br><br>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="border3" style="height: 2px;background-color: black;width: 100%;margin-top: 5%;"></div>
+  </section>
+  <section>
+    <div class="p-3  mb-4 rounded text-body-emphasis bg-body-secondary">
+      <div class="col-lg-6 px-0">
+        <h1 class="display-4 fst-italic">What our users says about us</h1>
+        <p class="lead my-3">Businesses from all industries love using Homiee Bills</p>
+      </div>
+    </div>
+    <div style="padding-left: 20px;">
+      <span class="badge text-bg-primary">Electricity</span>
+      <span class="badge text-bg-secondary">Electronic Appliances</span>
+      <span class="badge text-bg-success">GST Bills</span>
+      <span class="badge text-bg-danger">Kirana</span>
+      <span class="badge text-bg-warning">Jewellery</span>
+      <span class="badge text-bg-info">Pharma</span>
+      <span class="badge text-bg-light">Transportation</span>
+      <span class="badge text-bg-dark"> Gas Subsidy Bills</span><br><br>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Ashiyana</h3>
+            <div class="mb-1 text-body-secondary">Nov 12</div>
+            <p class="card-text mb-auto">"Inventory feature has me saved a lot of hours in maintaining my 1000+ list
+              of items. Now there
+              less counting and better accounting with homiee bills"</p>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="./images/50.jpg" style="height: 180px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb- shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Navrang Transport</h3>
+            <div class="mb-1 text-body-secondary">Oct 22</div>
+            <p class="mb-auto">"Good and simple app. Now we add Vehicle, total load and number of items in a single
+              invoice, said goodbye
+              to paper bills.thank you!"</p>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="./images/51.jpg" style="height: 180px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Gurukripa Traders</h3>
+            <div class="mb-1 text-body-secondary">Dec 15</div>
+            <p class="card-text mb-auto">"With this website, I can manage my bills and stock when I’m on the field. I
+              can give website to anyone to
+              manage, because it is so easy unlike other billing software."</p>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="./images/56.jpg" style="height: 180px;">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0">Swarn Mandir</h3>
+            <div class="mb-1 text-body-secondary">Aug 6</div>
+            <p class="mb-auto">"Homiee Bills has made my business easier to manage. Inventory is easily managed by
+              recording of item"</p>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="./images/53.jpg" style="height: 180px;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="home3" style="background-color: var(--bs-secondary-bg-subtle)">
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom fst-italic fs-1"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45"
+          fill="currentColor" class="bi bi-arrow-return-right" viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5" />
+        </svg><span style="color: gray;"> Benefits</span> of using Homiee Bills</span></h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <img src="./images/57.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Safe and Secure</h3>
+          <p>The billing and accounting software has been designed with utmost care. We go the extra mile to protect
+            your information from misuse, loss, unauthorised access, modificationor disclosure. The invoicing website
+            allows you to secure your business-related data easily.it helps to secure yours in one file without any
+            fear of loss or anything. Further, billing application allows the users to log out the application using
+            an existing phone password. Homiee Bills software users can send their queries. </p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <img src="./images/58.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Offline Billing </h3>
+          <p>The billing software not only works in online mode but is also available in offline mode with limited
+            features. Users can create files using the software in offline mode, i.e. they can make & edit bills when
+            there is no internet connection. With the real-time sync feature, all the invoice data entered offline
+            will be saved once the desktop software is connected to the internet.The invoicing software allows users
+            to create invoices and print them when there is no internet.</p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <img src="./images/59.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Whatsapp Support</h3>
+          <p>The billing website has a separate 'Help & Support' function to help users with FAQs on 'How to use' the
+            website. If they don't solve the query, users can reach out to our customer support team anytime through
+            Whatsapp or e-mail.Alternatively, they can chat with us online & get their queries resolved
+            quickly. For e-mail support, send an email to support homieebills@gmail.com. Our support team is available
+            24*7 and offers multi-lingual service.</p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col"><img src="./images/60.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Easy Data Transfer</h3>
+          <p>For users migrating from other billing softwares, the Homiee Bills website provides an easy migration
+            option. Users can easily transfer their data from other billing applications like Vyapar, Tally, Marg,
+            Busy, etc., in no time. While migrating from other billing software, Homiee Bills allows bulk addition of
+            items. Users don't have to enter the item one by one or don't have to worry about data loss.</p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="feature col">
+          <img src="./images/61.webp" alt="">
+          <h3 class="fs-4 text-body-emphasis">Item Library</h3>
+          <p>Homiee Bills billing software has a standard item library of 1 lakh+ FMCG & Pharma items. You can quickly
+            create your inventory list from this library and start collecting your bills from this billing app. The
+            in-built item library saves a lot of time to find bills.The 'Item Library' has many sections in which you
+            can store your bills according to your need.Users can go to the section to add more same bills.</p>
+          <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-3">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+        </div>
+        <div class="col mb-3">
+          <h3>Get in Touch</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">homiebills@gmail.com</a>
+            </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">+91-8476050057</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="col mb-3">
+          <h3>Information</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy Policy</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Terms & Conditions</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Customer Care</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Service Pages</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Service pack</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">HTML Sitemap</a></li>
+          </ul>
+        </div>
+        <div class="col mb-3"><br>
+          <br>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Invoicing Software</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Inventory Management
+                Software</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Billing Software For PC</a>
+            </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Offline Billing
+                Software</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">E-Invoicing Software</a>
+            </li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">E-Way Bill Software</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a href="https://chat.whatsapp.com/J7w6e7SxYEhAD7wGzIOerY" target="_blank"
+              onclick="pushEvent('Chat', 'whatsapp')" class="text-body-secondary" href="#"><svg
+                xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-whatsapp"
+                viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+              </svg></a>
+          </li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+              </svg></a>
+          </li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                height="20" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+              </svg></a>
+          </li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                height="20" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+              </svg></a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
